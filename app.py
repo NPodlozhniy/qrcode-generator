@@ -21,9 +21,9 @@ for reset in range(0, 2):
 
     if not reset:
         # Wait for user action
-        getpass(colored("WARNING! To be able to read the displayed QR code," + \
+        getpass(colored("WARNING! To be able to read the displayed QR code, " + \
                         "you might need to zoom-out your console." + \
-                        ".\nPress enter to acknowledge.", "red", attrs=['blink']))
+                        "\nPress enter to acknowledge.", "red", attrs=['blink']))
 
 text = input("Input the content of the QR code:")
 print()
